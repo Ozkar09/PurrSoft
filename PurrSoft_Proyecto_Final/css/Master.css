@@ -1,0 +1,73 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Kalam|Libre+Baskerville|Pacifico&display=swap');
+
+body {
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 16px;
+    margin-top: 50px;
+}
+
+p {
+    color: #6c6c6f;
+    font-size: 1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #323233;
+    text-transform: uppercase;
+}
+
+.navbar-brand span {
+    color: #fed136;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Kalam', cursive;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+}
+
+
+.navbar-nav .nav-item .nav-link {
+    padding: 1.1em 1em !important;
+    font-size: 120%;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #fff;
+    font-family: 'Gothic A1', sans-serif;
+}
+
+    .navbar-nav .nav-item .nav-link:hover {
+        color: #fed136;
+    }
+
+.navbar-expand-md .navbar-nav .dropdown-menu {
+    border-top: 3px solid #fed136;
+}
+
+.dropdown-item:hover {
+    background-color: #fed136;
+    color: #fff;
+}
+
+nav {
+    -webkit-transition: padding-top .3s,padding-bottom .3s;
+    -moz-transition: padding-top .3s,padding-bottom .3s;
+    transition: padding-top .3s,padding-bottom .3s;
+    border: none;
+}
+
+
+.text-intro {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+}
+
+
