@@ -2,15 +2,20 @@
 
 }
 
-.imgPerfil{
 
+.foto{
+    width: 150px;
+    height: 80px;
 
 }
 
+.txt {
+    background: #2ecc71;
+}
 .paralelogramo {
-    width: 150px;
-    height: 100px;
-    border: 3px solid #555;
+    margin: auto;
+    width: 800px;
+    height: 120px;
     background: #2ECC71;
     -webkit-transform: skew(20deg);
     -moz-transform: skew(20deg);
@@ -19,7 +24,7 @@
     transform: skew(20deg);
 }
 
-div {
+.centrar {
 
     text-align:center;
     justify-content:center;

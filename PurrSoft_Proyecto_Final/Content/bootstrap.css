@@ -2354,6 +2354,8 @@ pre code {
 }
 table {
   background-color: transparent;
+    height: 212px;
+    width: 371px;
 }
 table col[class*="col-"] {
   position: static;

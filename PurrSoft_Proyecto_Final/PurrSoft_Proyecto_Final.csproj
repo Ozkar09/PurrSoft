@@ -134,6 +134,7 @@
     <Content Include="Images\Icono_usuario.jpg" />
     <Content Include="Images\summerfield-336672_1280.jpg" />
     <Content Include="Views\About.aspx" />
+    <Content Include="Views\BusquedaUsuario.aspx" />
     <Content Include="Views\Contacto.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -152,6 +153,7 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Views\PerfilAdmin.aspx" />
     <Content Include="Views\PerfilUsuario.aspx" />
     <Content Include="Views\RegistroMascotas.aspx" />
     <Content Include="Views\RegistroUsuarios.aspx" />
@@ -206,6 +208,20 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>ORM.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\BusquedaUsuario.aspx.cs">
+      <DependentUpon>BusquedaUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\BusquedaUsuario.aspx.designer.cs">
+      <DependentUpon>BusquedaUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PerfilAdmin.aspx.cs">
+      <DependentUpon>PerfilAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\PerfilAdmin.aspx.designer.cs">
+      <DependentUpon>PerfilAdmin.aspx</DependentUpon>
     </Compile>
     <Compile Include="Views\PerfilUsuario.aspx.cs">
       <DependentUpon>PerfilUsuario.aspx</DependentUpon>

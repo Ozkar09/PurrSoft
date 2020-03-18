@@ -7,11 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace PurrSoft_Proyecto_Final.Views
 {
-	public partial class PerfilAdmin : System.Web.UI.Page
-	{
-		protected void Page_Load(object sender, EventArgs e)
-		{
+    public partial class BusquedaUsuario : System.Web.UI.Page
+    {
+        protected void Page_Load(object sender, EventArgs e)
+        {
 
-		}
-	}
+        }
+    }
 }
