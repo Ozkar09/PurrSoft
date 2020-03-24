@@ -127,20 +127,64 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\ActulizarDatosUsuariosAdmin.css" />
+    <Content Include="css\BusquedaUsuarioAdmin.css" />
+    <Content Include="css\BusquedaUsuarioDoctor.css" />
+    <Content Include="css\CrearDetalleHistoria.css" />
+    <Content Include="css\CrearMascotaAdmin.css" />
+    <Content Include="css\CrearUsuarioAdmin.css" />
+    <Content Include="css\FormularioMascotasAdmin.css" />
+    <Content Include="css\HistoriasClinicas.css" />
     <Content Include="css\Index.css" />
     <Content Include="css\Master.css" />
     <Content Include="css\PerfilAdmin.css" />
+    <Content Include="css\PerfilDoctor.css" />
+    <Content Include="css\VerDatosUsuarioAdmin.css" />
+    <Content Include="css\VerInfoMascotaAdmin.css" />
+    <Content Include="Images\background3.jpg" />
     <Content Include="Images\bg-01.jpg" />
+    <Content Include="Images\cat-Form.png" />
+    <Content Include="Images\detalle-Crear .PNG" />
+    <Content Include="Images\dog-Crear.jpg" />
+    <Content Include="Images\dog-VerDetalle.PNG" />
+    <Content Include="Images\FondoAdmin.jpg" />
+    <Content Include="Images\FondoCrearUsuario.jpg" />
+    <Content Include="Images\FondoHistoria.jpg" />
+    <Content Include="Images\FondoPerfil.jpg" />
+    <Content Include="Images\FondoVerusu.jpg" />
     <Content Include="Images\Icono_usuario.jpg" />
+    <Content Include="Images\parrot-Ver.jpg" />
     <Content Include="Images\summerfield-336672_1280.jpg" />
-    <Content Include="Views\About.aspx" />
-    <Content Include="Views\BusquedaUsuario.aspx" />
-    <Content Include="Views\Contacto.aspx" />
+    <Content Include="js\contact_me.js" />
+    <Content Include="js\jqBootstrapValidation.js" />
+    <Content Include="js\PerfilDoctor.js" />
+    <Content Include="vendor\bootstrap\css\bootstrap-grid.css" />
+    <Content Include="vendor\bootstrap\css\bootstrap-grid.min.css" />
+    <Content Include="vendor\bootstrap\css\bootstrap-reboot.css" />
+    <Content Include="vendor\bootstrap\css\bootstrap-reboot.min.css" />
+    <Content Include="vendor\bootstrap\css\bootstrap.css" />
+    <Content Include="vendor\bootstrap\css\bootstrap.min.css" />
+    <Content Include="vendor\bootstrap\js\bootstrap.bundle.js" />
+    <Content Include="vendor\bootstrap\js\bootstrap.bundle.min.js" />
+    <Content Include="vendor\bootstrap\js\bootstrap.js" />
+    <Content Include="vendor\bootstrap\js\bootstrap.min.js" />
+    <Content Include="vendor\jquery\jquery.js" />
+    <Content Include="vendor\jquery\jquery.min.js" />
+    <Content Include="vendor\jquery\jquery.slim.js" />
+    <Content Include="vendor\jquery\jquery.slim.min.js" />
+    <Content Include="Views\BusquedaUsuarioAdmin.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="Views\ActualizarDatosMascotasAdmin.aspx" />
+    <Content Include="Views\ActualizarDatosUsuarioAdmin.aspx" />
+    <Content Include="Views\BusquedaUsuarioDoctor.aspx" />
+    <Content Include="Views\CrearDetalleHistoria.aspx" />
+    <Content Include="Views\CrearMascotaAdmin.aspx" />
+    <Content Include="Views\CrearUsuarioAdmin.aspx" />
+    <Content Include="Views\HistoriasClinicas.aspx" />
     <Content Include="Views\Index.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -194,12 +238,63 @@
     <Content Include="Views\PurrSoft.Master" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Views\PerfilDoctor.aspx" />
+    <Content Include="Views\VerDatosUsuarioAdmin.aspx" />
+    <Content Include="Views\VerInfoMascotaAdmin.aspx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
     <Content Include="Site.Mobile.Master" />
     <Content Include="Views\web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Views\BusquedaUsuarioDoctor.aspx.cs">
+      <DependentUpon>BusquedaUsuarioDoctor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\BusquedaUsuarioDoctor.aspx.designer.cs">
+      <DependentUpon>BusquedaUsuarioDoctor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CrearDetalleHistoria.aspx.cs">
+      <DependentUpon>CrearDetalleHistoria.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\CrearDetalleHistoria.aspx.designer.cs">
+      <DependentUpon>CrearDetalleHistoria.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CrearMascotaAdmin.aspx.cs">
+      <DependentUpon>CrearMascotaAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\CrearMascotaAdmin.aspx.designer.cs">
+      <DependentUpon>CrearMascotaAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CrearUsuarioAdmin.aspx.cs">
+      <DependentUpon>CrearUsuarioAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\CrearUsuarioAdmin.aspx.designer.cs">
+      <DependentUpon>CrearUsuarioAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\HistoriasClinicas.aspx.cs">
+      <DependentUpon>HistoriasClinicas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\HistoriasClinicas.aspx.designer.cs">
+      <DependentUpon>HistoriasClinicas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\VerDatosUsuarioAdmin.aspx.cs">
+      <DependentUpon>VerDatosUsuarioAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\VerDatosUsuarioAdmin.aspx.designer.cs">
+      <DependentUpon>VerDatosUsuarioAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\VerInfoMascotaAdmin.aspx.cs">
+      <DependentUpon>VerInfoMascotaAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\VerInfoMascotaAdmin.aspx.designer.cs">
+      <DependentUpon>VerInfoMascotaAdmin.aspx</DependentUpon>
+    </Compile>
     <Content Include="App_Code\UsuriosDAO.cs" />
     <Content Include="App_Code\MascotasDAO.cs" />
     <Content Include="App_Code\DetalleHistoriasDAO.cs" />
@@ -209,12 +304,26 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>ORM.dbml</DependentUpon>
     </Compile>
-    <Compile Include="Views\BusquedaUsuario.aspx.cs">
-      <DependentUpon>BusquedaUsuario.aspx</DependentUpon>
+    <Compile Include="Views\BusquedaUsuarioAdmin.aspx.cs">
+      <DependentUpon>BusquedaUsuarioAdmin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Views\BusquedaUsuario.aspx.designer.cs">
-      <DependentUpon>BusquedaUsuario.aspx</DependentUpon>
+    <Compile Include="Views\BusquedaUsuarioAdmin.aspx.designer.cs">
+      <DependentUpon>BusquedaUsuarioAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ActualizarDatosMascotasAdmin.aspx.cs">
+      <DependentUpon>ActualizarDatosMascotasAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\ActualizarDatosMascotasAdmin.aspx.designer.cs">
+      <DependentUpon>ActualizarDatosMascotasAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ActualizarDatosUsuarioAdmin.aspx.cs">
+      <DependentUpon>ActualizarDatosUsuarioAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\ActualizarDatosUsuarioAdmin.aspx.designer.cs">
+      <DependentUpon>ActualizarDatosUsuarioAdmin.aspx</DependentUpon>
     </Compile>
     <Compile Include="Views\PerfilAdmin.aspx.cs">
       <DependentUpon>PerfilAdmin.aspx</DependentUpon>
@@ -252,21 +361,7 @@
       <DependentUpon>PerfilDoctor.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
-    <Compile Include="Views\About.aspx.cs">
-      <DependentUpon>About.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Views\About.aspx.designer.cs">
-      <DependentUpon>About.aspx</DependentUpon>
-    </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Views\Contacto.aspx.cs">
-      <DependentUpon>Contacto.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Views\Contacto.aspx.designer.cs">
-      <DependentUpon>Contacto.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Views\Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -308,6 +403,18 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
+    <Content Include="vendor\bootstrap\css\bootstrap-grid.css.map" />
+    <Content Include="vendor\bootstrap\css\bootstrap-grid.min.css.map" />
+    <Content Include="vendor\bootstrap\css\bootstrap-reboot.css.map" />
+    <Content Include="vendor\bootstrap\css\bootstrap-reboot.min.css.map" />
+    <Content Include="vendor\bootstrap\css\bootstrap.css.map" />
+    <Content Include="vendor\bootstrap\css\bootstrap.min.css.map" />
+    <Content Include="vendor\bootstrap\js\bootstrap.bundle.js.map" />
+    <Content Include="vendor\bootstrap\js\bootstrap.bundle.min.js.map" />
+    <Content Include="vendor\bootstrap\js\bootstrap.js.map" />
+    <Content Include="vendor\bootstrap\js\bootstrap.min.js.map" />
+    <Content Include="vendor\jquery\jquery.min.map" />
+    <Content Include="vendor\jquery\jquery.slim.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

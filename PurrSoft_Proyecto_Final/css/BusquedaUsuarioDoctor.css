@@ -1,0 +1,140 @@
+﻿body {
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+
+
+.header {
+    width: 50vw;
+    max-width: 500px;
+    min-width: 400px;
+    height: 150px;
+    background: url(http://i.imgur.com/woUbg3p.jpg);
+    background-size: cover;
+    background-position: center center;
+    transition: all .08s linear;
+}
+
+.profile {
+    width: 50vw;
+    max-width: 500px;
+    min-width: 400px;
+    height: 160px;
+    background: white;
+    position: relative;
+    box-sizing: border-box;
+    padding-top: 40px;
+    padding-left: 25px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.image {
+    position: absolute;
+    border: 3px solid white;
+    top: -55px;
+    left: 20px;
+    height: 90px;
+    width: 90px;
+    border-radius: 10px;
+}
+
+img {
+    width: inherit;
+    height: inherit;
+    border-radius: 8px;
+}
+
+
+.name {
+    font-size: 3rem;
+    font-weight: 500;
+    color: #444;
+}
+
+.nickname {
+    color: #888;
+    font-size: 1.5rem;
+    padding-bottom: 7px;
+}
+
+.location {
+    color: #555;
+    font-size: 1.8rem;
+    padding-left: 0px;
+    position: relative;
+    left: -5px;
+}
+
+.material-icons {
+    position: relative;
+    top: 3px;
+    font-size: 1rem;
+}
+
+
+
+.shadow {
+    box-shadow: 0px 0px 10px 1px black;
+}
+
+.overflow {
+    overflow: hidden;
+}
+
+.following,
+.followers {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    color: #bbb;
+    font-weight: 300;
+}
+
+.followers {
+    float: right;
+    padding-right: 30px;
+}
+
+.bottom {
+    margin-top: 10px;
+}
+
+.count {
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.9rem;
+    font-weight: 700;
+}
+
+.centrar {
+    justify-content: center;
+}
+
+/* Grid View*/
+
+.gridView {
+    width: 100%;
+    background-color: #fff;
+    margin: 5px 0 10px 0;
+    border: solid 1px #525252;
+    border-collapse: collapse;
+}
+
+.mGrid td {
+    padding: 2px;
+    border: solid 1px #c1c1c1;
+    color: #717171;
+}
+
+.mGrid th {
+    padding: 4px 2px;
+    color: #fff;
+    background: #424242 url(grd_head.png) repeat-x top;
+    border-left: solid 1px #525252;
+    font-size: 0.9em;
+}
+
+

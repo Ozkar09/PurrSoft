@@ -90,7 +90,6 @@ C:\Users\ASUS\Source\Repos\PurrSoft_Proyecto_Final\PurrSoft_Proyecto_Final\bin\e
 C:\Users\ASUS\Source\Repos\PurrSoft_Proyecto_Final\PurrSoft_Proyecto_Final\obj\Debug\PurrSoft_Proyecto_Final.csproj.CopyComplete
 C:\Users\ASUS\Source\Repos\PurrSoft_Proyecto_Final\PurrSoft_Proyecto_Final\obj\Debug\PurrSoft_Proyecto_Final.dll
 C:\Users\ASUS\Source\Repos\PurrSoft_Proyecto_Final\PurrSoft_Proyecto_Final\obj\Debug\PurrSoft_Proyecto_Final.pdb
-C:\Users\ASUS\Source\Repos\PurrSoft_Proyecto_Final\PurrSoft_Proyecto_Final\obj\Debug\PurrSoft_Proyecto_Final.csprojAssemblyReference.cache
 C:\Users\obeltran\Documents\Oscar\Proyectos\PurrSoft\PurrSoft_Proyecto_Final\bin\PurrSoft_Proyecto_Final.dll.config
 C:\Users\obeltran\Documents\Oscar\Proyectos\PurrSoft\PurrSoft_Proyecto_Final\bin\PurrSoft_Proyecto_Final.dll
 C:\Users\obeltran\Documents\Oscar\Proyectos\PurrSoft\PurrSoft_Proyecto_Final\bin\PurrSoft_Proyecto_Final.pdb
@@ -185,3 +184,4 @@ C:\Users\obeltran\Documents\Oscar\Proyectos\PurrSoft\PurrSoft_Proyecto_Final\obj
 C:\Users\obeltran\Documents\Oscar\Proyectos\PurrSoft\PurrSoft_Proyecto_Final\obj\Debug\PurrSoft_Proyecto_Final.csproj.CopyComplete
 C:\Users\obeltran\Documents\Oscar\Proyectos\PurrSoft\PurrSoft_Proyecto_Final\obj\Debug\PurrSoft_Proyecto_Final.dll
 C:\Users\obeltran\Documents\Oscar\Proyectos\PurrSoft\PurrSoft_Proyecto_Final\obj\Debug\PurrSoft_Proyecto_Final.pdb
+C:\Users\ASUS\Source\Repos\PurrSoft_Proyecto_Final\PurrSoft_Proyecto_Final\obj\Debug\PurrSoft_Proyecto_Final.csprojAssemblyReference.cache
