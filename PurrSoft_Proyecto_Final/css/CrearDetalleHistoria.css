@@ -1,4 +1,6 @@
-﻿
+﻿@import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Carter+One&display=swap');
+
 /* @extend display-flex; */
 display-flex, .display-flex, .display-flex-center {
     display: flex;
@@ -434,4 +436,17 @@ input[type=checkbox]:not(old) {
     .signup-content {
         padding: 50px 25px;
     }
+}
+
+.calendario {
+    width: 200px;
+    height: 60px;
+}
+.letra {
+    font-family: 'Fredoka One', cursive;
+    font-size:14px;
+}
+.title {
+    font-family: 'Carter One', cursive;
+    font-size: 30px;
 }
