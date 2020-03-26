@@ -5,7 +5,7 @@ using System.Linq;
 namespace PurrSoft_Proyecto_Final.App_Code
 {
 
-    public class UsuriosDAO
+    public class UsuariosDAO
     { 
        ORMDataContext bd = new ORMDataContext();
         public string RegistrarUsuario(Usuarios usuario)

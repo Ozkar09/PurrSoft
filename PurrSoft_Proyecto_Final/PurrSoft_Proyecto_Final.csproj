@@ -140,6 +140,7 @@
     <Content Include="css\PerfilAdmin.css" />
     <Content Include="css\PerfilDoctor.css" />
     <Content Include="css\VerDatosUsuarioAdmin.css" />
+    <Content Include="css\VerDetalleHistoria.css" />
     <Content Include="css\VerInfoMascotaAdmin.css" />
     <Content Include="Images\background3.jpg" />
     <Content Include="Images\bg-01.jpg" />
@@ -239,6 +240,7 @@
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Views\PerfilDoctor.aspx" />
     <Content Include="Views\VerDatosUsuarioAdmin.aspx" />
+    <Content Include="Views\VerDetalleHistoria.aspx" />
     <Content Include="Views\VerInfoMascotaAdmin.aspx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -288,6 +290,13 @@
     <Compile Include="Views\VerDatosUsuarioAdmin.aspx.designer.cs">
       <DependentUpon>VerDatosUsuarioAdmin.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Views\VerDetalleHistoria.aspx.cs">
+      <DependentUpon>VerDetalleHistoria.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\VerDetalleHistoria.aspx.designer.cs">
+      <DependentUpon>VerDetalleHistoria.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Views\VerInfoMascotaAdmin.aspx.cs">
       <DependentUpon>VerInfoMascotaAdmin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -295,7 +304,7 @@
     <Compile Include="Views\VerInfoMascotaAdmin.aspx.designer.cs">
       <DependentUpon>VerInfoMascotaAdmin.aspx</DependentUpon>
     </Compile>
-    <Content Include="App_Code\UsuriosDAO.cs" />
+    <Content Include="App_Code\UsuariosDAO.cs" />
     <Content Include="App_Code\MascotasDAO.cs" />
     <Content Include="App_Code\DetalleHistoriasDAO.cs" />
     <Content Include="App_Code\CiudadesDAO.cs" />

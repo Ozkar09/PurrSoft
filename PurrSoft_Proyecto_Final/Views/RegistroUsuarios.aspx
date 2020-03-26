@@ -11,8 +11,7 @@
 
             <label for="motivo de consulta">Motivo de consulta:</label>
             <input type="text" id="ipMotivoConsulta" placeholder="Motivo de Consulta">
-             <br /><br />
-
+             <br /><br /> 
 
             <label for="descripcionCaso">Descripcion del caso:</label>
             <input type="text" id="ipDescripcionCaso" placeholder="">
