@@ -144,10 +144,12 @@
     <Content Include="css\VerInfoMascotaAdmin.css" />
     <Content Include="Images\background3.jpg" />
     <Content Include="Images\bg-01.jpg" />
+    <Content Include="Images\button_cancel.png" />
     <Content Include="Images\cat-Form.png" />
     <Content Include="Images\detalle-Crear .PNG" />
     <Content Include="Images\dog-Crear.jpg" />
     <Content Include="Images\dog-VerDetalle.PNG" />
+    <Content Include="Images\edit.png" />
     <Content Include="Images\FondoAdmin.jpg" />
     <Content Include="Images\FondoCrearUsuario.jpg" />
     <Content Include="Images\FondoHistoria.jpg" />
@@ -248,6 +250,9 @@
     <Content Include="Views\web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Code\PruebaDAO.cs" />
+    <Compile Include="MascotaDAO.cs" />
+    <Compile Include="UsuarioDAO.cs" />
     <Compile Include="Views\BusquedaUsuarioDoctor.aspx.cs">
       <DependentUpon>BusquedaUsuarioDoctor.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -304,8 +309,8 @@
     <Compile Include="Views\VerInfoMascotaAdmin.aspx.designer.cs">
       <DependentUpon>VerInfoMascotaAdmin.aspx</DependentUpon>
     </Compile>
-    <Content Include="App_Code\UsuariosDAO.cs" />
-    <Content Include="App_Code\MascotasDAO.cs" />
+    <Content Include="UsuariosDAO.cs" />
+    <Content Include="MascotasDAO.cs" />
     <Content Include="App_Code\DetalleHistoriasDAO.cs" />
     <Content Include="App_Code\CiudadesDAO.cs" />
     <Compile Include="ORM.designer.cs">

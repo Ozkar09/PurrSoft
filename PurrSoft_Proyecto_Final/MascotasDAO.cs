@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Web;
 using System.Linq;
 
-namespace PurrSoft_Proyecto_Final.App_Code
+namespace PurrSoft_Proyecto_Final
 {
     public class MascotasDAO
     {
@@ -83,7 +83,21 @@ namespace PurrSoft_Proyecto_Final.App_Code
 
         }
 
+        public string EliminarMascota(int id)
+        {
+            try
+            {
+                var consultaPorId = (from m in bd.Mascotas where m.ID_mascota == id select m).First();
+                consultaPorId.ID_estado_mascota = 2;
+                bd.SubmitChanges();
+                return "Se elimino correctamente";
+            }
+            catch (Exception ex)
+            {
 
+                return "No se pudo eliminar la mascota" + ex.Message;
+            }
+        }
 
 
 

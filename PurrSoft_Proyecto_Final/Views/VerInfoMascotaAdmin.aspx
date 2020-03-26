@@ -13,15 +13,15 @@
 			<form class=" contact1-form validate-form" method="put">
 				<h3>Datos de las Mascotas </h3> <br />
 				
-				<div class="wrap-input1 validate-input" data-validate = "Nombre is required">
+				<div class="wrap-input1 validate-input" data-validate = "IdMascota is required">
                     <asp:Label CssClass="texto" ID="Label1" runat="server" Text="Nombre de la Mascota"></asp:Label>
-					<input class="input1" type="text" name="Nombre"  id="ipInfoMascota" readonly="readonly">
+                    <asp:TextBox ID="txtIdMascota" runat="server" CssClass="input1"></asp:TextBox>
 					<span class="shadow-input1"></span>
 				</div>
 
-				<div class="wrap-input1 validate-input"  data-validate = "Raza is required">
+				<div class="wrap-input1 validate-input"  data-validate = "Nombre is required">
 					<asp:Label CssClass="texto" ID="Label2" runat="server" Text="Raza "></asp:Label>
-					<input class="input1" type="text" name="Raza" readonly="readonly">
+                    <asp:TextBox ID="txtNombreMascota" runat="server" CssClass="input1"></asp:TextBox>
 					<span class="shadow-input1"></span>
 				</div>
 
@@ -61,7 +61,8 @@
 				</div>
 
 				<div class="container-contact1-form-btn">
-					<button class="contact1-form-btn" id="bntactualizarDatosMascota">Actualizar</button>
+                    <asp:Button ID="btnActualizar" runat="server" Text="Actualizar"  CssClass="contact1-form-btn" OnClick="btnActualizar_Click"/>
+				
 				</div>
 			</form>
 				</div>

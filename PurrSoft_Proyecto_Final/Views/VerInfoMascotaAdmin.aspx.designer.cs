@@ -24,6 +24,15 @@ namespace PurrSoft_Proyecto_Final.Views
         protected global::System.Web.UI.WebControls.Label Label1;
 
         /// <summary>
+        /// Control txtIdMascota.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtIdMascota;
+
+        /// <summary>
         /// Control Label2.
         /// </summary>
         /// <remarks>
@@ -31,6 +40,15 @@ namespace PurrSoft_Proyecto_Final.Views
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label2;
+
+        /// <summary>
+        /// Control txtNombreMascota.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtNombreMascota;
 
         /// <summary>
         /// Control Label3.
@@ -103,5 +121,14 @@ namespace PurrSoft_Proyecto_Final.Views
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtEstado;
+
+        /// <summary>
+        /// Control btnActualizar.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnActualizar;
     }
 }

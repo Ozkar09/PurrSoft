@@ -2,12 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace PurrSoft_Proyecto_Final.App_Code
+namespace PurrSoft_Proyecto_Final
 {
 
     public class UsuariosDAO
     { 
        ORMDataContext bd = new ORMDataContext();
+
         public string RegistrarUsuario(Usuarios usuario)
         {
             try

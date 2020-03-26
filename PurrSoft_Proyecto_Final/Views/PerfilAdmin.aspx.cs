@@ -13,5 +13,15 @@ namespace PurrSoft_Proyecto_Final.Views
 		{
 
 		}
+
+		protected void btnActualizar_Click(object sender, EventArgs e) {
+			Console.WriteLine("You click me ...................");
+			System.Diagnostics.Debug.WriteLine("You click me ..................");
+			System.Diagnostics.Trace.WriteLine("You click me ..................");
+
+		}
+
+
+
 	}
 }

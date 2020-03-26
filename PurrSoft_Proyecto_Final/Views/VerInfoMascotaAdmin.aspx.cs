@@ -11,7 +11,26 @@ namespace PurrSoft_Proyecto_Final.Views
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (!IsPostBack)
+            {
+                MascotaDAO mascotaDAO = new MascotaDAO();
+                Mascotas mascotaDTO = mascotaDAO.ConsultaPorId(int.Parse(Session["idMascotaActualizar"].ToString()));
+                txtIdMascota.Text = mascotaDTO.ID_mascota.ToString();
+                txtNombreMascota.Text = mascotaDTO.Nombre.ToString();
+                // agregar los demas campos que deseo actualizar
+            }
+           
+        }
 
+        protected void btnActualizar_Click(object sender, EventArgs e)
+        {
+            MascotaDAO mascotaDAO = new MascotaDAO();
+            Mascotas mascotaDTO = new Mascotas();
+            mascotaDTO.ID_mascota = int.Parse(txtIdMascota.Text);
+            mascotaDTO.Nombre = txtNombreMascota.Text;
+            // igual con todos los atributos 
+            mascotaDAO.ActualizarMascotas(mascotaDTO);
+            Response.Redirect("BusquedaUsuarioAdmin.aspx");
         }
     }
 }

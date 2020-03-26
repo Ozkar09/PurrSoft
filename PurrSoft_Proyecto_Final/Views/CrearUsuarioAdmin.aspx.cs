@@ -13,5 +13,15 @@ namespace PurrSoft_Proyecto_Final.Views
         {
 
         }
+
+        protected void btnCrear_Click(object sender, EventArgs e)
+        {
+            Usuarios usuariosDto = new Usuarios();
+            Usuarios usuariosDao = new Usuarios();
+           
+           
+
+
+        }
     }
 }

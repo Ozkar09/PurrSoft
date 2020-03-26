@@ -23,7 +23,7 @@
 
                         </div>
                         <div>
-                            <asp:Button ID="Button1" runat="server" class="btn btn-success letraContenido" Text="Actualizar" Height="38px" Width="114px" />
+                            <asp:Button ID="btnActualizar" runat="server" class="btn btn-success letraContenido" Text="Actualizar" Height="38px" Width="114px" />
                         </div> <br />
                     </div>
                 </div>
@@ -52,7 +52,7 @@
                 <asp:Label ID="Label2" runat="server" Text="Numero de documento"></asp:Label>
 				<input type="text" required="" id="password" class="password" />
 			</div> <br />
-			<div>
+			<div
                 <asp:Button class="btn btn-info letraContenido" ID="Button2" runat="server" Text="Buscar" Height="39px" Width="95px" />
 			</div><br />
 		

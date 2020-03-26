@@ -19,7 +19,7 @@
 				<div class="wrap-input100 validate-input" data-validate="nombre is required">
 					<span class="label-input100"></span>
                     <asp:Label class="labels" ID="lbNombre" runat="server" Text="Label"> Nombres</asp:Label>
-					<input class="input100" type="text" name="nombre" placeholder="Nombres Completos">
+                    <asp:TextBox ID="TextBox1" runat="server" CssClass="input100"></asp:TextBox>
 					<span class="focus-input100"></span>
 				</div>
 
@@ -73,12 +73,7 @@
 				</div>
 
 				<div class="container-contact100-form-btn">
-					<button class="contact100-form-btn">
-						<span>
-							Actualizar
-							<i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
-						</span>
-					</button>
+                    <asp:Button CssClass="contact100-form-btn" ID="btnCrear" runat="server" Text="Crear" OnClick="btnCrear_Click" />
 				</div>
 			</form>
 		</div>

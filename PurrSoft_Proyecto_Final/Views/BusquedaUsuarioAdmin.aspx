@@ -28,7 +28,21 @@
             </div>
         </div><br /> <br />
 
-    <asp:GridView ID="GridView1" CssClass="gridView" runat="server"></asp:GridView>
+    <asp:GridView ID="gvdListaMascotas" CssClass="gridView" runat="server" AutoGenerateColumns="False" OnRowCommand="gvdListaMascotas_RowCommand">
+        <Columns>
+            <asp:BoundField DataField="ID_Mascota" HeaderText="Id_Mascota" />
+            <asp:BoundField DataField="Nombre" HeaderText="Nombre" />
+            <asp:BoundField DataField="Especie" HeaderText="Especie" />
+            <asp:TemplateField HeaderText="Acciones">
+                <ItemTemplate> 
+                    <asp:ImageButton CommandName="Actualizar" ID="imgActualizar" runat="server" ImageUrl="~/Images/edit.png" Width="22px"/> 
+                    <asp:ImageButton CommandName="Eliminar" ID="imgEliminar" runat="server" ImageUrl="~/Images/button_cancel.png" Width="22px"/>
+                </ItemTemplate>
+            </asp:TemplateField>
+        </Columns>
+    </asp:GridView>
+
+    <asp:Label ID="lblMensaje" runat="server" Text="Label"></asp:Label>
 
 
 </asp:Content>
