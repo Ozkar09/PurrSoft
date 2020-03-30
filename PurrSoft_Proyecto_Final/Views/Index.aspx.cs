@@ -23,7 +23,7 @@ namespace PurrSoft_Proyecto_Final
             UsuarioDAO usuarioDAO = new UsuarioDAO();
 
             Usuarios usuarioLogin = usuarioDAO.Login(tipoDocumento, numeroDocumento, contrasena);
-            if (usuarioLogin.Numero_doc != null)
+            if (usuarioLogin.Numero_doc == null)
             {
                 Session["numeroDocumentoLogin"] = usuarioLogin.Numero_doc;
                 Session["nombreLogin"] = usuarioLogin.Nombres;

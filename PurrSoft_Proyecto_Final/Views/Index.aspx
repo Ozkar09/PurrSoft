@@ -25,7 +25,7 @@
         <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
           <div class="carousel-caption d-none d-md-block">
             <h3>Second Slide</h3>
-            <p>This is a description for the second slide.</p>
+            <p>This is a description for the second slide. HOLA SOY OSCAR</p>
           </div>
         </div>
         <!-- Slide Three - Set the background image for this slide in the line below -->
